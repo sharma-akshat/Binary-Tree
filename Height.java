@@ -1,6 +1,16 @@
 package BinaryTree;
 import java.util.*;
 
+class Node
+{
+    int key;
+    Node left = null, right = null;
+ 
+    Node(int data) {
+        this.key = data;
+    }
+}
+
 public class Height {
     static Scanner sc=null;
 
