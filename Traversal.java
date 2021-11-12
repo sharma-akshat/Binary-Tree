@@ -13,7 +13,7 @@ public class Traversal {
     static Scanner sc=null;
     public static void main(String gg[])
     {
-        sc= new Scanner(System.in);
+        sc = new Scanner(System.in);
         Node root=createTree();
         System.out.println("In order traversal: ");
         inOrder(root);
